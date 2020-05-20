@@ -512,6 +512,32 @@ hi link gitcommitDiscardedArrow gitcommitDiscardedFile
 hi link gitcommitSelectedArrow gitcommitSelectedFile
 hi link gitcommitUnmergedArrow gitcommitUnmergedFile
 
+" Override to italic
+
+call s:h("jsxAttrib", { "fg": s:yellow, "gui": "italic", "cterm": "italic" })
+
+call s:h("jsFuncArgs", { "fg": s:blue, "gui": "italic", "cterm": "italic" })
+call s:h("jsExport", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsExportDefault", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsExtendsKeyword", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsFunction", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsImport", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsFrom", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsConditional", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsStatement", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsRepeat", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsDo", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsSwitchCase", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsReturn", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsOperatorKeyword", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsStorageClass", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("jsClassKeyword", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("javascriptClassKeyword", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("javaScriptFunction", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+call s:h("javascriptVariable", { "fg": s:purple, "gui": "italic", "cterm": "italic" })
+
+
+
 " }}}
 
 " Setup Terminal Colors {{{
